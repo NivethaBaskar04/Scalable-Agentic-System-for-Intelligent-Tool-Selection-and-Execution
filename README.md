@@ -183,7 +183,9 @@ scalable-agent/
 │   ├── api.md
 │   ├── evaluation.md
 │   └── design-decisions.md
-└── docker-compose.yml
+└── docker
+
+-compose.yml
 ```
 
 ## Docker
@@ -192,3 +194,13 @@ scalable-agent/
 docker compose up --build
 ```
 Backend on `:8000`, frontend on `:5173`.
+
+
+<img width="1365" height="412" alt="Screenshot 2026-09-08 114210" src="https://github.com/user-attachments/assets/1bb9fb16-c3df-4314-9898-97f07749850b" />
+
+
+
+<img width="1363" height="596" alt="Screenshot 2026-09-09 114401" src="https://github.com/user-attachments/assets/7ba011b0-74d8-4493-87e6-5d25037b1155" />
+
+
+
