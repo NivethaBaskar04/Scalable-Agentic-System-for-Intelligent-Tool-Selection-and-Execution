@@ -1,0 +1,25 @@
+# Core web framework
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+pydantic==2.13.5
+
+# Data / retrieval
+scikit-learn==1.8.0
+numpy==2.4.4
+SQLAlchemy==2.0.54
+
+# HTTP client (used by the execution engine to call the mock PayPal API,
+# and available for real outbound API calls if this is extended beyond mocks)
+httpx==0.28.1
+
+# LLM providers (optional - the app runs fully without either configured,
+# falling back to the deterministic mock planner)
+anthropic==1.7.0
+openai>=1.0.0
+
+# Config
+python-dotenv==1.2.2
+
+# Testing
+pytest==9.1.1
+pytest-asyncio==1.4.0

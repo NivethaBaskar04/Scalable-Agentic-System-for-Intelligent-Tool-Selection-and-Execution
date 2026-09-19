@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/data:/app/data
+    environment:
+      - LLM_PROVIDER=mock
+      - TOP_K_TOOLS=5
+
+  frontend:
+    image: python:3.11-slim
+    working_dir: /site
+    volumes:
+      - ./frontend:/site
+    command: ["python", "-m", "http.server", "5173"]
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
