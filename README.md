@@ -196,11 +196,8 @@ docker compose up --build
 Backend on `:8000`, frontend on `:5173`.
 
 
-<img width="1365" height="412" alt="Screenshot 2026-09-08 114210" src="https://github.com/user-attachments/assets/1bb9fb16-c3df-4314-9898-97f07749850b" />
-
-
-
-<img width="1363" height="596" alt="Screenshot 2026-09-09 114401" src="https://github.com/user-attachments/assets/7ba011b0-74d8-4493-87e6-5d25037b1155" />
+<img width="1365" height="626" alt="Screenshot 2026-09-19 122725" src="https://github.com/user-attachments/assets/bdb85988-d08a-4e14-b036-cc00e7a689d5" />
+<img width="1365" height="625" alt="Screenshot 2026-09-19 122702" src="https://github.com/user-attachments/assets/ab644da5-5dc7-43a2-bd0d-d905397cc43c" />
 
 
 
